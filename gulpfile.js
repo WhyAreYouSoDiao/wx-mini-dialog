@@ -10,7 +10,7 @@ var path = require('path'),
 gulp.task('jsmin', () => {
     return gulp
         .src(path.resolve(__dirname, SRC_DIR, '*.js'))
-        .pipe(babel({ presets: ['@babel/env'] })) 
+        .pipe(babel())
         .pipe(uglyfly({ compress: true }))
         .pipe(gulp.dest(path.resolve(__dirname, DIST_DIR)))
 })
@@ -32,7 +32,7 @@ gulp.task('wxssmin', () => {
 gulp.task('jsonmin', () => {
     return gulp
         .src(path.resolve(__dirname, SRC_DIR, '*.json'))
-        .pipe(jsonminify ())
+        .pipe(jsonminify())
         .pipe(gulp.dest(path.resolve(__dirname, DIST_DIR)))
 })
 

@@ -16,6 +16,14 @@
     "url": "https://github.com/WhyAreYouSoDiors/wx-mini-dialog/issues"
   },
   "homepage": "https://github.com/WhyAreYouSoDiors/wx-mini-dialog#readme",
-  "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-jsonminify": "^1.1.0",
+    "gulp-uglyfly": "^1.4.2"
+  }
 }
