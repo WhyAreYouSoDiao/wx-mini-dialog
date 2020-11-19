@@ -23,7 +23,7 @@
 4. 在wxml中即可使用组件
 ``` html
  <button bindtap="changeStatus">button</button>
- <dialog visible="{{visible}}" bind:confirm="handleConfirm" bind:cancle="changeStatus"></dialog>
+ <dialog visible="{{visible}}" bind:confirm="handleConfirm" bind:cancle="changeStatus">内容</dialog>
 ```
 
 5. 在 js 文件中添加逻辑
@@ -53,5 +53,6 @@ Component({
 |cancleColor	|String		|#666666	|取消按钮颜色
 |showClose		|Boolean	|false		|是否显示 关闭按钮
 |title			|String		|			|底部弹窗的标题
+|showTitle  |Boolean  |     |底部弹窗是否展示标题
 
 > tips：隐藏按钮只需要传入空字符串
