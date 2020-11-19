@@ -1,0 +1,219 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url(data:application/font-woff2;charset=utf-8;base64,d09GMgABAAAAAAJIAA0AAAAABbwAAAHzAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP0ZGVE0cGh4GVgCCUhEICoEUgQ4LDAABNgIkAxQEIAWDCQczG8EEyJ4DblsMz50jSBG7luMvtIOI5/n2+98+M3O/eBLDpKkm1fQzUvJbHZIl74Soq5PwSPJGvgbN7R4x/UaaJ5YQK03MElsSqqZGqBQtc/Y7L09/87lF+AC8ObHLorGtCzjNMtggG2SbZhYIfCD6g/M2P4GocPImBD6+LDjg678T9w4mMAuKiCYaClLlvo7yuMQ98Dn5bXdGKboKIDMA4PKt+gAl9Kf6pn+D1TpQEUBFxTICzjMLllnsACNGFLDup77nf9r0P+JNAMgQAaSgAABCJT+dvldAB8YQbAe7ADQAkO23R28lHv88osOxrkdfMPt8RgbD1z0SsR3jHRsNBCMWy679v1bUb/qr6WlddQRFSGtSyzlyRpSo2KjGYw8nQu8HCMKBAzrf9h/5PzLeDL1f4Givvq8DjCgg1EHPagP1vQAAugbIDaCgcRRBZzsCCiI4AYAJDwTEsBkEFMO2IaDa5IaAZtgrAZ1xHwQMGfZblTYqpvCggs2D6jQeNFOegM6s38ghU767q29taW1tBXdXyCXrFXDV0NjRQtcO/hmzgJNFpIP1hp2xIUrE4lEy2hQTDQUCxsiLeIIiXJbE2cBuPKQiy1OZdko4piAwKrmhFkPfoJvhzt60DUloX8GZp6LA8tVKFHJthyhqylAJe8UIEgA=) format('woff2'),
+        url(data:application/font-woff;charset=utf-8;base64,d09GRgABAAAAAAQEAA0AAAAABbwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAD6AAAABoAAAAciYHEn0dERUYAAAPMAAAAGwAAAB4AJwALT1MvMgAAAaAAAABGAAAAVlZTWlZjbWFwAAAB/AAAAEMAAAFSADXv02dhc3AAAAPEAAAACAAAAAj//wADZ2x5ZgAAAkwAAAB8AAAAlJqSXqNoZWFkAAABMAAAADAAAAA2FvziE2hoZWEAAAFgAAAAHQAAACQHpAQDaG10eAAAAegAAAAUAAAAFAtVAD1sb2NhAAACQAAAAAwAAAAMAAAASm1heHAAAAGAAAAAHQAAACAASAAsbmFtZQAAAsgAAADbAAABiduRioRwb3N0AAADpAAAAB0AAAAzM6WXcnjaY2BkYGAAYg+Ltg/x/DZfGbhZGEDg5rtzp+G07f+/zIeZm4FcDgYmkCgAcjQN9njaY2BkYGBu/v+XIYaFAQSYDzMwMqACVgBj9gOwAAAAeNpjYGRgYGBl0GQA0QwMTEDMCGY7gPkMAAbYAHUAAAB42mNgZGZgnMDAysDANJPpDAMDQz+EZnzNYMzICRRlYGVmgAFGAQYECEhzTWFwYFB4ycB84P8BhhjmZgaQSkaQHADZOgtQAAAEAAAAAAAAAAFVAAACAAAABAAAPXjaY2BgYGaAYBkGRgYQ8AHyGMF8FgYDIM0BhExgGYWXDP//I7P+PxZngeoCA0Y2BjiXEaSHiQEVMEKsGs4AAP0LCPMAAAAAAAAAAAAAAABKeNo1jLEKwkAYg/94d5b8HHURHQotdKhugohO4pO1Q+/FBCcfqmd/0WZIIPmIQO6fyb1ckqMI0V0euJ73NGtQr0oUxG67QYm2OxDr9mTIDe88qJIVkZAs6AMQfB4wWh9ijD73uf8uqnj+GNX/7qlUtwDBhHE5FJEZUHcaG3jadY4xbgIxEEXfwkKEQBFVlNIFRRpW6+3CARB1CnqErNVKgCUDDQehzRFScgwOwBFyiXyWaVJge+zn7z8zBkacybiPjBfGxh3xh3GXCSfjXPqPcY8hV+O+9F85s3wg5bXNunNH/G7cZUFpnEv/Nu7xxsW4L/1Gw5rIVhHZQbOO2xgFXwRqjmxYkXQN9XGzEsxb36E9kxwBR0Whbo6Z4n+9h+Y1p7ZXcno+VSjuDvOY6uCqonQzZ51F3k+1qtLL9ex7SzVO7PX+aOPbL7AMad+oiC/Kp7l/pDs6TAB42mNgYsAPWIGYkYGJgZmRiS0zOU/X0BgACLEB4gAAAAAAAAH//wACeNpjYGRgYOABYjEgZmJgBEIWMAbxGAADygAzAHjaY2BgYGQAgqtL1DlA9M13507DaABMdQhqAAA=) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.icon-close {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-close:before{
+  content: "\e900";
+}
+.clearfix:after {
+  clear: both;
+  content: '';
+  display: block;
+  height: 0;
+  line-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.txt-cut-1{
+  white-space:nowrap;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: block;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.txt-cut-2{
+  overflow : hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}
+
+.txt-cut-3{
+  overflow : hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}
+
+.model_mask{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  display: none;
+}
+/* 中间模板 */
+.model_center_body{
+  width: 80vw;
+  background-color: #fff;
+  position: fixed;
+  left: 50vw;
+  top: 50vh;
+  z-index: 1000;
+  transform: scale(0.7) translate(-50%, -50%);
+  transform-origin: 0 0; 
+  border-radius: 14px;
+  opacity: 0;
+  display: none;
+}
+.model_center_body .icon-close {
+  position: absolute;
+  right: 13px;
+  top: 13px;
+  width: 15px;
+  height: 15px;
+  color:#999;
+}
+.model_center_body .icon-close.bottom {
+  right: 50%;
+  top: 104%;
+  font-size: 20px;
+  color: #bbb;
+  border: 1rpx solid #bbb;
+  border-radius: 50%;
+  transform: translateX(50%);
+  padding: 5px;
+}
+.model_center_btns{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.model_center_btns > view{
+  flex-grow: 1;
+  width: 50%;
+  height: 40px;
+  border-top: 1rpx solid #ddd;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.model_center_btns .cancle + .confirm{
+  border-left: 1rpx solid #ddd;
+}
+
+.center_show_animate{
+  animation: centerShow 0.3s forwards;
+}
+
+@keyframes centerShow {
+  form {
+    opacity: 0;
+    transform: scale(0.7) translate(-50%, -50%);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translate(-50%, -50%);
+  }
+}
+/* 中间模板 */
+
+
+/* 底部模板 */
+.model_bottom_body{
+  width: 100vw;
+  max-height: calc(100vh - 44px);
+  position: fixed;
+  left: 0;
+  z-index: 1000;
+  background-color: #fff;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  display: none;
+}
+
+.model_bottom_title{
+  height: 44px;
+  padding: 0 20px;
+  font-size: 14px;
+  border-bottom: 1rpx solid #e4e4e4;
+}
+
+.model_bottom_title .cancle{
+  float: left;
+  line-height: 44px;
+}
+.model_bottom_title .confirm{
+  float: right;
+  line-height: 44px;
+}
+.model_bottom_title .title{
+  padding: 0 20px;
+  height: 100%;
+}
+
+.model_bottom_title .center_title{
+  padding: 0 20px;
+  max-width: 200px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+
+.model_bottom_body .icon-close {
+  position: absolute;
+  right: 13px;
+  top: 13px;
+}
+
+.model_bottom_body .model_bottom_contain {
+  width: 100%;
+  height: calc(100% - 45px);
+  padding: 0;
+  box-sizing: border-box;
+  overflow: scroll;
+}
+
+.bottom_show_animate{
+  animation: bottomShow 0.3s forwards;
+}
+
+@keyframes bottomShow {
+  form {}
+  to {
+    bottom: 0;
+  }
+}
+
+
+
+/* 展示 */
+.model_mask.on{
+  display: block
+}
+.model_center_body.on{
+  display: block;
+}
+.model_bottom_body.on{
+  display: block;
+}

@@ -1,0 +1,27 @@
+<view class="model_body">
+  <view class="model_mask {{visible ? 'on' : ''}}" bindtap='cancle'></view>
+  <view class="{{visible ? 'model_center_body center_show_animate on' : 'model_center_body'}}" style="{{'top: ' + topFix + ';'}}" wx:if="{{type == 'center'}}">
+    <icon class=" {{'icon-close ' + closeType}}" wx:if="{{showClose}}" bindtap='cancle'></icon>
+    <view class="model_center_contain">
+      <slot></slot>
+    </view>
+    <view class="model_center_btns">
+      <view class="cancle" style="color: {{cancleColor}}" wx:if="{{cancleText}}" bindtap="cancle">{{cancleText}}</view>
+      <view class="confirm" style="color: {{confirmColor}}" wx:if="{{confirmText}}" bindtap="confirm">{{confirmText}}</view>
+    </view>
+  </view>
+  <view class="{{visible ? 'model_bottom_body bottom_show_animate on' : 'model_bottom_body'}}" style="{{'height: ' + height + ';bottom: -' + height + ';'}}" wx:if="{{type == 'bottom'}}">
+    <icon class="icon-close" wx:if="{{showClose}}" bindtap='cancle'></icon>
+    <view class="model_bottom_title" wx:if="{{showTitle}}">
+      <view class="cancle" style="color: {{cancleColor}}" wx:if="{{cancleText}}" bindtap="cancle">{{cancleText}}</view>
+      <view class="confirm" style="color: {{confirmColor}}" wx:if="{{confirmText}}" bindtap="confirm">{{confirmText}}</view>
+      <view class="center_title txt-cut-1">
+        {{title}}
+        <slot name="title"></slot>
+      </view>
+    </view>
+    <view class="model_bottom_contain">
+      <slot></slot>
+    </view>
+  </view>
+</view>

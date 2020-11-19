@@ -1,0 +1,21 @@
+{
+  "name": "wx-mini-dialog",
+  "version": "1.0.0",
+  "description": "dialog for wechat miniprogram",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "whyareyousodiors",
+  "license": "ISC",
+  "miniprogram": "dist",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WhyAreYouSoDiors/wx-mini-dialog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WhyAreYouSoDiors/wx-mini-dialog/issues"
+  },
+  "homepage": "https://github.com/WhyAreYouSoDiors/wx-mini-dialog#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
