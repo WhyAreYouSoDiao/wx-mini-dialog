@@ -1,6 +1,6 @@
 {
   "name": "wx-mini-dialog",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "dialog for wechat miniprogram",
   "main": "index.js",
   "scripts": {},
@@ -10,12 +10,12 @@
   "miniprogram": "dist",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WhyAreYouSoDiors/wx-mini-dialog.git"
+    "url": "git+https://github.com/WhyAreYouSoDiao/wx-mini-dialog.git"
   },
   "bugs": {
-    "url": "https://github.com/WhyAreYouSoDiors/wx-mini-dialog/issues"
+    "url": "https://github.com/WhyAreYouSoDiao/wx-mini-dialog/issues"
   },
-  "homepage": "https://github.com/WhyAreYouSoDiors/wx-mini-dialog#readme",
+  "homepage": "https://github.com/WhyAreYouSoDiao/wx-mini-dialog#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-preset-es2015": "^6.24.1",
